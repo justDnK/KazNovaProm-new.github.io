@@ -1,0 +1,1 @@
+# KazNovaProm-new.github.io
