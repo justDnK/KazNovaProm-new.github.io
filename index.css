@@ -1,0 +1,398 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0-ExdGM.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0aExdGM.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0yExdGM.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79D0KExQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+    /* background-color: black; */
+
+}
+
+.menu {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.logo {
+    width: 431px;
+    height: 87px;
+    background-image: url("images/image_logo_for_kaznp.jpg");
+    background-size: cover;
+}
+
+.textes {
+    width: 331px;
+    height: 87px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textes .languages {
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    margin-left: 131px;
+    display: none;
+}
+
+.textes .languages a {
+    color: grey;
+    font-size: 14px;
+    margin-left: 38%;
+}
+
+.textes .choices {
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textes .choices a {
+  color: grey;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.textes .choices a:hover {
+  color: blue;
+}
+
+/* departments opening */
+
+.departments_opening {
+  width: 100%;
+  height: 750px;
+  /* background-color: blueviolet; */
+}
+
+.departments_opening .textes {
+  width: 100%;
+  height: 250px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.departments_opening .textes .block {
+  width: 1200px;
+  height: 300px;
+  /* background-color: blue; */
+  display: flex;
+}
+
+.departments_opening .textes .block  .real_textes {
+  width: 400px;
+  height: 300px;
+  /* background-color: crimson; */
+}
+
+.departments_opening .textes .block  .real_textes .text_1 {
+  width: 250px;
+  height: 50px;
+  /* background-color: cornflowerblue; */
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.departments_opening .textes .block  .real_textes .text_1 a {
+  margin: 0;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.departments_opening .textes .block  .real_textes .text_1 a:hover {
+  color: blue;
+}
+
+.departments_opening .textes .block  .real_textes .text_1 p {
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 90%;
+}
+
+.departments_opening .textes .block  .real_textes .text_2 {
+  width: 350px;
+  height: 80px;
+  /* background-color: deeppink; */
+  margin: 0;
+}
+
+.departments_opening .textes .block  .real_textes .text_2 h1 {
+  font-weight: 400;
+}
+
+.departments_opening .image {
+  width: 100%;
+  height: 450px;
+  background-color: aqua;
+  background-image: url("images/big_photo.jpg");
+  background-size: cover;
+}
+
+/* depatments_boxes  */
+
+.departments_boxes {
+  width: 100%;
+  height: 680px;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.departments_boxes .main_box {
+  width: 1200px;
+  height: 300px;
+  /* background-color: deeppink; */
+  display: flex;
+} 
+
+.departments_boxes .box_1 {
+  width: 400px;
+  height: 300px;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.departments_boxes .box_1 .image {
+  width: 350px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.departments_boxes .box_1 .link_1 {
+  width: 320px;
+  height: 40px;
+  /* background-color: white; */
+  display: flex; 
+}
+
+.departments_boxes .box_1 .link_1 div {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-top: 5px;
+  margin-right: 15px;
+  display: flex;
+}
+
+.departments_boxes .box_1 .link_1 div p {
+  margin: 0;
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  position: absolute;
+  line-height: 80%;
+}
+
+.departments_boxes .box_1 .link_1 a {
+  color: grey;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.departments_boxes .box_1 .link_1 a:hover {
+  color: blue;
+}
+
+.departments_boxes .box_2 {
+  width: 400px;
+  height: 300px;
+  /* background-color: deeppink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.departments_boxes .box_2 .image {
+  width: 350px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.departments_boxes .box_2 .link_2 {
+  width: 320px;
+  height: 40px;
+  /* background-color: white; */
+  display: flex; 
+}
+
+.departments_boxes .box_2 .link_2 div {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-top: 5px;
+  margin-right: 15px;
+  display: flex;
+}
+
+.departments_boxes .box_2 .link_2 div p {
+  margin: 0;
+  color: white;
+  margin-left: 5px;
+  font-weight: 800;
+  position: absolute;
+  line-height: 80%;
+}
+
+.departments_boxes .box_2 .link_2 a {
+  color: grey;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.departments_boxes .box_2 .link_2 a:hover {
+  color: blue;
+}
+
+.departments_boxes .box_3 {
+  width: 400px;
+  height: 300px;
+  /* background-color: darkred; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.departments_boxes .box_3 .image {
+  width: 350px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.departments_boxes .box_3 .link_3 {
+  width: 320px;
+  height: 40px;
+  /* background-color: white; */
+  display: flex; 
+}
+
+.departments_boxes .box_3 .link_3 div {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-top: 5px;
+  margin-right: 15px;
+  display: flex;
+}
+
+.departments_boxes .box_3 .link_3 div p {
+  margin: 0;
+  color: white;
+  margin-left: 5px;
+  font-weight: 700;
+  position: absolute;
+  line-height: 80%;
+}
+
+.departments_boxes .box_3 .link_3 a {
+  color: grey;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.departments_boxes .box_3 .link_3 a:hover {
+  color: blue;
+}
+
+/* grey line */
+
+.grey_line {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+}
+
+.grey_line .box {
+  width: 500px;
+  height: 60px;
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grey_line .box a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 200px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer .logo {
+  width: 431px;
+  height: 87px;
+  background-image: url("images/image_logo_for_kaznp.jpg");
+  background-size: cover;
+}
+
+.footer .footer_text {
+  width: 800px;
+}
+
+.footer .footer_text h1 {
+  color: rgb(59, 59, 255);
+  text-align: center;
+}
