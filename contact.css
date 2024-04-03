@@ -1,0 +1,7 @@
+.block_1 {
+    height: 250px;
+}
+
+.block_1 .image {
+    display: none;
+}
