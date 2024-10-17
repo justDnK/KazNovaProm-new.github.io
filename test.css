@@ -2143,3 +2143,9 @@ body {
     font-size: 20px;
   }
 }
+
+@media(max-width: 500px) {
+  body .block_1 .textes .block .real_textes .text_1 {
+    width: 300px ;
+  }
+}
