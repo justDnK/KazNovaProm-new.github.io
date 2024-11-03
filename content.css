@@ -773,55 +773,7 @@
     }
 }
 
-/* zhelezo */
 
-.content_5 {
-    height: 1200px;
-}
-
-.content_5 .block_dep_5 {
-    height: 1200px;
-}
-
-.content_5 .block_dep_5 .image_dep_5 {
-    background-image: url(images/gruze_new_5.jpg);
-    background-size: cover;
-}
-
-.content_5 .block_dep_5 .logo_dep_5 {
-    margin-bottom: 20px;
-}
-
-.content .block_dep_5 .text4_dep_5 {
-    height: 210px;
-}
-
-@media(max-width: 900px) {
-    .content_5 {
-        height: 1300px;
-    }
-    
-    .content_5 .block_dep_5 {
-        height: 1300px;
-    }
-
-
-    .content_5 .block_dep_5 .text_dep_5 {
-        height: 230px;
-    }
-
-    .content_5 .block_dep_5 .text2_dep_5 {
-        height: 210px;
-    }
-
-    .content_5 .block_dep_5 .text3_dep_5 {
-        height: 210px;
-    }
-
-    .content_5 .block_dep_5 .text4_dep_5 {
-        height: 260px;
-    }
-}
 
 /* консультация */
 

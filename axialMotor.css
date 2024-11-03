@@ -1,0 +1,238 @@
+/* zhelezo */
+
+.content_5 {
+    height: 1165px;
+}
+
+.content_5 .block_dep_5 {
+    height: 1165px;
+}
+
+.content_5 .block_dep_5 .image_dep_5 {
+    background-image: url(images/motorofplane_part3.png);
+    background-size: cover;
+}
+
+.content_5 .block_dep_5 .logo_dep_5 {
+    margin-bottom: 40px;
+}
+
+.content .block_dep_5 .text_dep_5 {
+    height: 135px;
+    margin-bottom: 25px;
+}
+
+.content .block_dep_5 .text2_dep_5 {
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.content .block_dep_5 .text3_dep_5 {
+    height: 135px;
+    margin-bottom: 25px;
+}
+
+.content .block_dep_5 .text4_dep_5 {
+    height: 160px;
+}
+
+@media(max-width: 900px) {
+    .content_5 {
+        height: 1175px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1175px;
+    }
+
+    .content_5 .block_dep_5 .logo_dep_5 {
+        margin-bottom: 40px;
+        height: 40px;
+    }
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 135px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 135px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 135px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 195px;
+    }
+
+    .content_5 .block_dep_5 .image_dep_5 {
+        background-image: url(images/motorofplane.png);
+        background-size: cover;
+    }
+}
+
+@media(max-width: 800px) {
+    .content_5 {
+        height: 1175px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1175px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 230px;
+    }
+}
+
+@media(max-width: 700px) {
+    .content_5 {
+        height: 1060px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1060px;
+    }
+
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 120px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 120px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 120px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 175px;
+    }
+}
+
+@media(max-width: 600px) {
+    .content_5 {
+        height: 1205px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1205px;
+    }
+
+    .content_5 .block_dep_5 .logo_dep_5 {
+        margin-bottom: 40px;
+        height: 60px;
+    }
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 150px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 150px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 150px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 210px;
+    }
+}
+
+@media(max-width: 500px) {
+    .content_5 {
+        height: 1250px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1250px;
+    }
+
+    .content_5 .block_dep_5 .logo_dep_5 {
+        margin-bottom: 40px;
+        height: 60px;
+    }
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 175px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 175px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 175px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 230px;
+    }
+}
+
+@media(max-width: 400px) {
+    .content_5 {
+        height: 1340px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1340px;
+    }
+
+    .content_5 .block_dep_5 .logo_dep_5 {
+        margin-bottom: 40px;
+        height: 30px;
+    }
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 205px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 205px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 205px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 260px;
+    }
+}
+
+@media(max-width: 350px) {
+    .content_5 {
+        height: 1520px;
+    }
+    
+    .content_5 .block_dep_5 {
+        height: 1520px;
+    }
+
+    .content_5 .block_dep_5 .logo_dep_5 {
+        margin-bottom: 40px;
+        height: 60px;
+    }
+
+    .content_5 .block_dep_5 .text_dep_5 {
+        height: 235px;
+    }
+
+    .content_5 .block_dep_5 .text2_dep_5 {
+        height: 235px;
+    }
+
+    .content_5 .block_dep_5 .text3_dep_5 {
+        height: 235px;
+    }
+
+    .content_5 .block_dep_5 .text4_dep_5 {
+        height: 320px;
+    }
+}
