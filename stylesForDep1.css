@@ -256,12 +256,12 @@
 
 @media(max-width: 500px) {
     .content {
-        height: 980px;
+        height: 1010px;
     }
 
     .content .block_dep_1 {
         width: 400px;
-        height: 880px;
+        height: 910px;
     }
     
     .content .block_dep_1 .logo_dep_1 {
@@ -302,6 +302,7 @@
     .content .block_dep_1 .text3_dep_1 {
         width: 400px;
         height: 125px;
+        margin-bottom: 60px;
     }
 
     .content .block_dep_1 .text3_dep_1 h3 {
