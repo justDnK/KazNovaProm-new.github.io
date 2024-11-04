@@ -291,6 +291,7 @@
     .content .block_dep_1 .text2_dep_1 {
         width: 400px;
         height: 150px;
+        margin-bottom: 60px;
     }
 
     .content .block_dep_1 .text2_dep_1 h3 {
@@ -302,7 +303,6 @@
     .content .block_dep_1 .text3_dep_1 {
         width: 400px;
         height: 125px;
-        margin-bottom: 60px;
     }
 
     .content .block_dep_1 .text3_dep_1 h3 {
